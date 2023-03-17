@@ -1,0 +1,21 @@
+{
+  "name": "mountains-and-rivers-theme",
+  "displayName": "Mountains and Rivers Theme",
+  "description": "An light theme inspired by the painting \"A Panorama of Rivers and Mountains\"",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mountains and Rivers",
+        "uiTheme": "vs",
+        "path": "./themes/Mountains and Rivers-color-theme.json"
+      }
+    ]
+  }
+}
