@@ -4,7 +4,7 @@
   "description": "An light theme inspired by the painting - A Panorama of Rivers and Mountains",
   "version": "0.1.3",
   "engines": {
-    "vscode": "^1.76.0"
+    "vscode": "^1.12.0"
   },
   "icon": "images/icon.png",
   "categories": [
