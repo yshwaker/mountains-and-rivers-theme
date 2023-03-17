@@ -17,5 +17,9 @@
         "path": "./themes/Mountains and Rivers-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yshwaker/mountains-and-rivers-theme"
   }
 }
