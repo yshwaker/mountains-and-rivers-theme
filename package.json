@@ -1,11 +1,12 @@
 {
   "name": "mountains-and-rivers-theme",
   "displayName": "Mountains and Rivers Theme",
-  "description": "An light theme inspired by the painting \"A Panorama of Rivers and Mountains\"",
+  "description": "An light theme inspired by the painting - A Panorama of Rivers and Mountains",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.76.0"
   },
+  "icon": "images/icon.png",
   "categories": [
     "Themes"
   ],
@@ -21,5 +22,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/yshwaker/mountains-and-rivers-theme"
-  }
+  },
+  "publisher": "yshwaker"
 }
