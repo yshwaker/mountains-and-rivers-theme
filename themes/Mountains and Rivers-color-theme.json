@@ -204,6 +204,16 @@
       }
     },
     {
+      "name": "[VSCODE-CUSTOM] JS/TS Properties Keyword",
+      "scope": [
+        "storage.type.property.js",
+        "storage.type.property.jsx",
+        "storage.type.property.ts",
+        "storage.type.property.tsx"
+      ],
+      "settings": { "foreground": "#0184BC" }
+    },
+    {
       "name": "java type",
       "scope": [
         "storage.type.annotation.java",
@@ -729,14 +739,14 @@
       "name": "Meta tag",
       "scope": "meta.tag",
       "settings": {
-        "foreground": "#796d61"
+        "foreground": "#4f473f"
       }
     },
     {
       "name": "Strings",
       "scope": "string",
       "settings": {
-        "foreground": "#150606"
+        "foreground": "#4d4141"
       }
     },
     {
@@ -785,7 +795,7 @@
       "name": "Attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#150606"
+        "foreground": "#8A7242"
       }
     },
     {
@@ -1823,7 +1833,7 @@
     "editor.inactiveSelectionBackground": "#e5ebf1",
     "editorWhitespace.foreground": "#33333333",
     "editor.selectionHighlightBackground": "#cbddff80",
-    "editor.selectionHighlightBorder": "#495F77",
+    "editor.selectionHighlightBorder": "#495f7704",
     "editor.findMatchBackground": "#736d6666",
     "editor.findMatchBorder": "#00000010",
     "editor.findMatchHighlightBackground": "#ea5c0055",
