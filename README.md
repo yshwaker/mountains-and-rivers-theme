@@ -2,9 +2,9 @@
 
 An light only VSCode theme inspired by one of the most well-known Chinese art - A Thousand Li of Rivers and Mountains.
 
-<img width="1203" alt="demo" src="https://user-images.githubusercontent.com/2382185/226259376-c419b4ec-6d08-44a7-ad99-5c0f45465281.png">
+<img width="1000" alt="SCR-20230602-t8k" src="https://github.com/yshwaker/mountains-and-rivers-theme/assets/2382185/83468c6d-c765-426b-bbb1-d8810f9ceb3a">
 
-font used in the screenshot: MonoLisa
+font used in the screenshot: JetBrain Mono 14
 
 ## Installing
 
