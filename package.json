@@ -2,7 +2,7 @@
   "name": "mountains-and-rivers-theme",
   "displayName": "Mountains and Rivers Theme",
   "description": "An light theme inspired by the painting - A Panorama of Rivers and Mountains",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "engines": {
     "vscode": "^1.12.0"
   },
