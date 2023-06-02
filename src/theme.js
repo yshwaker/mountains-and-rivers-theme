@@ -1,5 +1,3 @@
-import chroma from 'chroma-js'
-
 const theme = {
   foreground: '#1E2128',
   primary: '#1467C6',
@@ -11,22 +9,6 @@ const theme = {
   string: '#3D382E',
   builtin: '#346D91',
   comment: '#77858E',
-}
-
-function changeColorToHexAlphas(obj) {
-  if (typeof obj === 'object') {
-    for (var keys in obj) {
-      if (typeof obj[keys] === 'object') {
-        changeColorToHexAlphas(obj[keys])
-      } else {
-        let keyValue = obj[keys]
-        if (chroma.valid(keyValue)) {
-          obj[keys] = chroma(keyValue).hex()
-        }
-      }
-    }
-  }
-  return obj
 }
 
 export default function getTheme() {
