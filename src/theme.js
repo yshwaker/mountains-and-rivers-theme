@@ -1,19 +1,17 @@
-const theme = {
+const colors = {
   foreground: '#1E2128',
-  primary: '#1467C6',
+  primary: '#346D91',
   function: '#95262D',
-  property: '#3A448C',
+  property: '#474D78',
   variable: '#2E333D',
-  keyword: '#B0187A',
+  keyword: '#91102A',
   tag: '#5A7449',
-  string: '#3D382E',
+  string: '#304831',
   builtin: '#346D91',
   comment: '#77858E',
 }
 
 export default function getTheme() {
-  const colors = changeColorToHexAlphas(theme)
-
   return {
     name: 'Mountains and Rivers',
     type: 'light',

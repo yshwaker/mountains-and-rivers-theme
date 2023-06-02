@@ -1,0 +1,23 @@
+/**
+ * JSDoc example
+ * @param {Object} block - The block to be processed.
+ * @param {string} cls - The class name to be added to the block.
+ */
+function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1) {
+      return process(block, true, 0x0f) + ` class="${cls}"`
+    }
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i <= classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined) console.log('undefined')
+  }
+
+  return (
+    <div>
+      <web-component>{block}</web-component>
+    </div>
+  )
+}
