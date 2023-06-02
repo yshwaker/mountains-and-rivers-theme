@@ -288,6 +288,8 @@
         "attribute.name",
         "variable.other.property",
         "entity.other.attribute-name",
+        "entity.name.function",
+        "support.variable.property",
         "invalid.deprecated.entity.other.attribute-name.html"
       ],
       "settings": {
@@ -299,6 +301,7 @@
         "keyword"
       ],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#91102A"
       }
     },
@@ -308,7 +311,7 @@
         "support.type.property-name"
       ],
       "settings": {
-        "foreground": "#5A7449"
+        "foreground": "#4E7435"
       }
     },
     {
@@ -338,6 +341,7 @@
         "string.comment"
       ],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#77858E"
       }
     }

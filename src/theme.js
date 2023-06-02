@@ -5,7 +5,7 @@ const colors = {
   property: '#474D78',
   variable: '#2E333D',
   keyword: '#91102A',
-  tag: '#5A7449',
+  tag: '#4E7435',
   string: '#304831',
   builtin: '#346D91',
   comment: '#77858E',
@@ -302,6 +302,8 @@ export default function getTheme() {
           'attribute.name',
           'variable.other.property',
           'entity.other.attribute-name',
+          'entity.name.function',
+          'support.variable.property',
           'invalid.deprecated.entity.other.attribute-name.html',
         ],
         settings: {
@@ -311,6 +313,7 @@ export default function getTheme() {
       {
         scope: ['keyword'],
         settings: {
+          fontStyle: 'italic',
           foreground: colors.keyword,
         },
       },
@@ -341,6 +344,7 @@ export default function getTheme() {
       {
         scope: ['comment', 'punctuation.definition.comment', 'string.comment'],
         settings: {
+          fontStyle: 'italic',
           foreground: colors.comment,
         },
       },
