@@ -6,6 +6,7 @@
   "engines": {
     "vscode": "^1.12.0"
   },
+  "type": "module",
   "icon": "images/icon.png",
   "categories": [
     "Themes"
@@ -15,7 +16,7 @@
       {
         "label": "Mountains and Rivers",
         "uiTheme": "vs",
-        "path": "./themes/Mountains and Rivers-color-theme.json"
+        "path": "./themes/light.json"
       }
     ]
   },
@@ -23,5 +24,16 @@
     "type": "git",
     "url": "https://github.com/yshwaker/mountains-and-rivers-theme"
   },
-  "publisher": "yshwaker"
+  "publisher": "yshwaker",
+  "dependencies": {
+    "chroma-js": "^2.4.2"
+  },
+  "scripts": {
+    "build": "node src/index.js",
+    "dev": "nodemon --watch src --exec \"node src/index.js\""
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "@types/node": "^20.2.5"
+  }
 }
