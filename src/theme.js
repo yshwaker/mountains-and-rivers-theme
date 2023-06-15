@@ -1,14 +1,22 @@
+const PALETTE = {
+  gray: ['#1E2128', '#2E333D', '#77858E'],
+  blue: '#346D91',
+  red: ['#95262D', '#91102A'],
+  purple: '#474D78',
+  green: ['#304831', '#4E7435'],
+}
+
 const colors = {
-  foreground: '#1E2128',
-  primary: '#346D91',
-  function: '#95262D',
-  property: '#474D78',
-  variable: '#2E333D',
-  keyword: '#91102A',
-  tag: '#4E7435',
-  string: '#304831',
-  builtin: '#346D91',
-  comment: '#77858E',
+  foreground: PALETTE.gray[0],
+  primary: PALETTE.blue,
+  function: PALETTE.red[0],
+  property: PALETTE.purple,
+  variable: PALETTE.gray[1],
+  keyword: PALETTE.red[1],
+  tag: PALETTE.green[1],
+  string: PALETTE.green[0],
+  builtin: PALETTE.blue,
+  comment: PALETTE.gray[2],
 }
 
 export default function getTheme() {
@@ -283,6 +291,7 @@ export default function getTheme() {
       {
         scope: [
           'string',
+          'constant.numeric',
           'string punctuation.section.embedded source',
           'attribute.value',
           'string.regexp.character-class',
@@ -292,6 +301,12 @@ export default function getTheme() {
         ],
         settings: {
           foreground: colors.string,
+        },
+      },
+      {
+        scope: ['keyword.operator'],
+        settings: {
+          foreground: PALETTE.green[1],
         },
       },
       {
@@ -311,7 +326,7 @@ export default function getTheme() {
         },
       },
       {
-        scope: ['keyword'],
+        scope: ['keyword.control'],
         settings: {
           fontStyle: 'italic',
           foreground: colors.keyword,

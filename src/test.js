@@ -1,23 +1,22 @@
-/**
- * JSDoc example
- * @param {Object} block - The block to be processed.
- * @param {string} cls - The class name to be added to the block.
- */
-function $initHighlight(block, cls) {
-  try {
-    if (cls.search(/\bno\-highlight\b/) != -1) {
-      return process(block, true, 0x0f) + ` class="${cls}"`
-    }
-  } catch (e) {
-    /* handle exception */
-  }
-  for (var i = 0 / 2; i <= classes.length; i++) {
-    if (checkCondition(classes[i]) === undefined) console.log('undefined')
-  }
+const user = {
+  name: 'Hedy Lamarr',
+  imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+  imageSize: 90,
+}
 
+export default function Profile() {
   return (
-    <div>
-      <web-component>{block}</web-component>
-    </div>
+    <>
+      <h1>{user.name}</h1>
+      <img
+        className="avatar"
+        src={user.imageUrl}
+        alt={'Photo of ' + user.name}
+        style={{
+          width: user.imageSize,
+          height: user.imageSize,
+        }}
+      />
+    </>
   )
 }
