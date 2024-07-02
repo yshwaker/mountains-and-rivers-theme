@@ -16,7 +16,7 @@
       {
         "label": "Mountains and Rivers",
         "uiTheme": "vs",
-        "path": "./themes/light.json"
+        "path": "./themes/light-color-theme.json"
       }
     ]
   },
