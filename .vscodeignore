@@ -1,4 +1,9 @@
 .vscode/**
 .vscode-test/**
+.DS_Store
+.gitattributes
 .gitignore
+src/**
+pnpm-lock.yaml
 vsc-extension-quickstart.md
+*.vsix
