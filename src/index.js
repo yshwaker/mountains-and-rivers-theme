@@ -3,8 +3,9 @@ import getTheme from './theme.js'
 
 const theme = getTheme()
 
-fs.mkdir('./themes', { recursive: true })
-  .then(() => {
-    fs.writeFile('./themes/light.json', JSON.stringify(theme, null, 2))
-  })
-  .catch(() => process.exit(1))
+try {
+  await fs.mkdir('./themes', { recursive: true })
+  await fs.writeFile('./themes/light-color-theme.json', `${JSON.stringify(theme, null, 2)}\n`)
+} catch {
+  process.exit(1)
+}
