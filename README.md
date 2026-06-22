@@ -1,6 +1,6 @@
 # Mountains and Rivers Theme
 
-A light-only VS Code theme inspired by the Chinese painting A Thousand Li of Rivers and Mountains.
+Light and dark VS Code themes inspired by the Chinese painting A Thousand Li of Rivers and Mountains.
 
 <img width="1000" alt="SCR-20230602-t8k" src="https://github.com/yshwaker/mountains-and-rivers-theme/assets/2382185/83468c6d-c765-426b-bbb1-d8810f9ceb3a">
 

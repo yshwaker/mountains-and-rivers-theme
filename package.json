@@ -1,7 +1,7 @@
 {
   "name": "mountains-and-rivers-theme",
   "displayName": "Mountains and Rivers Theme",
-  "description": "A light theme inspired by the painting A Thousand Li of Rivers and Mountains",
+  "description": "Light and dark VS Code themes inspired by the painting A Thousand Li of Rivers and Mountains",
   "version": "2.3.0",
   "engines": {
     "vscode": "^1.70.0"
@@ -16,6 +16,11 @@
         "label": "Mountains and Rivers",
         "uiTheme": "vs",
         "path": "./themes/light-color-theme.json"
+      },
+      {
+        "label": "Mountains and Rivers Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-color-theme.json"
       }
     ]
   },
